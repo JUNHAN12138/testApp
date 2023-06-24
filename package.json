@@ -1,0 +1,48 @@
+{
+  "name": "testAPP",
+  "version": "0.1.0",
+  "description": "微前端方案 icestark 的主应用模板，用于快速初始化主应用",
+  "dependencies": {
+    "@alifd/next": "^1.x",
+    "@alifd/theme-design-pro": "^0.x",
+    "@antv/l7": "^2.16.1",
+    "@antv/l7-layers": "^2.16.1",
+    "@antv/l7-maps": "^2.16.1",
+    "classnames": "^2.2.5",
+    "leaflet": "^1.9.4",
+    "moment": "^2.24.0",
+    "prop-types": "^15.5.8",
+    "react": "^17.0.2",
+    "react-bmap": "^1.0.130",
+    "react-bmapgl": "^0.2.20",
+    "react-dom": "^17.0.2",
+    "react-leaflet": "^4.2.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@iceworks/spec": "^1.0.0",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.2",
+    "build-plugin-fusion": "^0.1.21",
+    "build-plugin-icestark": "^2.0.0",
+    "build-plugin-ignore-style": "^0.1.0",
+    "build-plugin-moment-locales": "^0.1.0",
+    "eslint": "^7.30.0",
+    "ice.js": "^2.0.0",
+    "stylelint": "^13.7.2"
+  },
+  "scripts": {
+    "start": "icejs start",
+    "build": "icejs build",
+    "lint": "npm run eslint && npm run stylelint",
+    "eslint": "eslint --cache --ext .js,.jsx,.ts,.tsx ./",
+    "eslint:fix": "npm run eslint -- --fix",
+    "stylelint": "stylelint \"**/*.{css,scss,less}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ice-lab/react-materials/tree/master/scaffolds/icestark-layout"
+  },
+  "private": true,
+  "originTemplate": "@icedesign/stark-layout-scaffold"
+}
