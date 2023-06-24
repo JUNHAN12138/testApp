@@ -1,7 +1,7 @@
 # ice-stark-layout
 
 ## 使用
-
+- 初始化项目: npm init
 - 启动调试服务: `npm start`
 - 构建 dist: `npm run build`
 
